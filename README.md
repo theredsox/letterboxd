@@ -1,11 +1,11 @@
 # Letterboxd Expanded - Chrome extension
-# https://github.com/theredsox/letterboxd
-# By user https://letterboxd.com/QuietVermonter/
+# By LB user <a href="https://letterboxd.com/QuietVermonter/">QuietVermonter</a>
 
+This is a Chrome extension for letterboxd.com to support customizing my experience on the site. The extension is not active outside of the LB domain.
 
-This is a Letterboxd.com extension to support tailoring my experience on the site.
 
 Release Notes (by version, newest first)
+
 
 Version 1.0
 
@@ -13,7 +13,7 @@ Version 1.0
 
 <img src="images/feature_1_0_1.png" alt="Version 1.0 - Feature 1" width="300" height="248">
 
-When you are within another user's profile, the film posters '...' menu will have a new option inserted at the bottom of the list. It is called 'User activity' and will forward you to that user's activity feed for that specific film.
+When you are within a user's profile, the film posters '...' menu will have a new option inserted at the bottom of the list. It is called 'User activity' and will forward you to that user's activity feed for that specific film.
 
 Recently LB updated the site and occassionally does send you to the same location when clicking on a film poster, but it is inconsistent. It appears to prioritize sending you to the most recent review of the film for the user. If the user has no reviews, it sometimes directs you to the acticity for the film and other times to an empty activity entry. So feels like this extension feature will still be useful, as the menu item guarantees you'll land on the user's activity feed for that film.
 
