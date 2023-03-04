@@ -43,7 +43,7 @@ const addCurrentUserActivityToList = (member, filmLink, filmMenu) => {
         filmMenu.parentElement.style.display = 'none';
         window.location.href = url;
     };
-    a.appendChild(document.createTextNode('User Activity'));
+    a.appendChild(document.createTextNode('User activity'));
     var li = document.createElement('li');
     li.classList.add('popup-menu-text')
     li.style.cursor = 'pointer';
