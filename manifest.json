@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Letterboxd Expanded",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/extension_popup.html",
+    "default_icon": "images/icon_128.png"
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "64": "images/icon_64.png",
+    "128": "images/icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/core.js"],
+      "matches": [
+        "https://letterboxd.com/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "permissions": []
+}

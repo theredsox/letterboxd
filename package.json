@@ -1,0 +1,12 @@
+
+{
+    "name": "letterboxd-expanded",
+    "description": "A Chrome extension to customize a users experience on the website https://letterboxd.com",
+    "version": "1.0.0",
+    "author": "Brandon Williams <theredsox@gmail.com>",
+    "dependencies": {
+        "chrome-types": "^0.1.176"
+    },
+    "devDependencies": {
+    }
+  }

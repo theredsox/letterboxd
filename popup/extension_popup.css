@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+    width: 350px;
+    padding: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.title {
+    text-align: center;
+}
