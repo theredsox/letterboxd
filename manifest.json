@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Letterboxd Expanded",
-  "description": "Base Level Extension",
+  "description": "A Chrome extension for customizing UI/UX on the website letterboxd.com",
   "version": "1.0",
   "action": {
     "default_popup": "popup/extension_popup.html",
@@ -22,8 +22,5 @@
       ]
     }
   ],
-  "background": {
-    "service_worker": "scripts/background.js"
-  },
   "permissions": []
 }
